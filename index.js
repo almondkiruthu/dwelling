@@ -6,7 +6,6 @@ const form = document.getElementById('contact__form');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-
   checkInputs();
 });
 
