@@ -31,32 +31,35 @@
     </header>
     <h1 class="home-text">Contact Me</h1>
 
-    <form id="contact__form">
-      <div class="input-fields">
-        <input
-          type="text"
-          name="name"
-          id="nameField"
-          placeholder="Name..."
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          id="emailField"
-          placeholder="Email..name@example.com"
-          required
-        />
-      </div>
-      <textarea
-        name="message"
-        id="messageField"
-        placeholder="Your Message..."
-      ></textarea>
-      <div>
-        <button type="submit" id="btn">Submit</button>
-      </div>
-    </form>
+    <div class="contact__form__holder">
+      <form id="contact__form">
+        <div class="input-fields">
+          <input
+            type="text"
+            name="name"
+            id="nameField"
+            placeholder="Name..."
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="emailField"
+            placeholder="Email..name@example.com"
+            required
+          />
+        </div>
+        <textarea
+          name="message"
+          id="messageField"
+          placeholder="Your Message..."
+        ></textarea>
+        <div>
+          <button type="submit" id="btn">Submit</button>
+        </div>
+      </form>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>
