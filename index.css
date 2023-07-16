@@ -4,14 +4,14 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 0rem 10rem;
   flex-wrap: wrap;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 .navbar h1 a {
@@ -31,7 +31,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-left: 12rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 /* ########################
 The container styles
@@ -105,10 +105,54 @@ The container styles
   color: white;
   padding: 1rem 0rem;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   width: 100%;
   background-color: black;
 }
 
 /* contact form styles */
-
+.contact__form__holder {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 12rem;
+  max-width: 40%;
+  /* border: 11px solid #8e9ef2; */
+  font-family: 'Inter', sans-serif;
+  background-color: #ceefd0;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.contact__form__holder:hover {
+  box-shadow: 20px 20px 60px #c8c7c7, -20px -20px 60px #ffffff;
+}
+.contact__form {
+  padding: 10rem;
+}
+.input-fields {
+  padding: 1rem 0;
+}
+#nameField {
+  padding: 1rem;
+}
+#emailField {
+  padding: 1rem;
+  margin-left: 1rem;
+}
+#messageField {
+  padding: 1rem;
+}
+.submitBtn__holder {
+  padding: 1rem 0;
+}
+#btn {
+  padding: 0.5rem 1rem;
+  background-color: #ff9e9e;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.contact__footer {
+  margin-top: 26.5rem;
+}
