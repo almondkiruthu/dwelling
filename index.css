@@ -302,6 +302,66 @@ Hero styles
     line-height: 1.75rem; /* 155.556% */
     padding-top: 2rem;
   }
+  .hero__cta {
+    display: flex;
+    column-gap: 4rem;
+    background-color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .hero__search__holder {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 6px;
+    border: 2px solid #d6d4dd;
+    margin-left: 5rem;
+  }
+  .hero__search {
+    border: none;
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .hero__search::placeholder {
+    padding: 1rem;
+    width: 35rem;
+    box-sizing: border-box;
+  }
+  .search__icon {
+    padding-right: 2rem;
+  }
+  .hero__selector__holder {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 6px;
+    border: 2px solid #d6d4dd;
+  }
+  .hero__selector {
+    border: none;
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+  }
+  .dropdown__icon {
+    padding-right: 2rem;
+  }
+  .hero__button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #fd5d11;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+  }
 }
 
 /* *********************
