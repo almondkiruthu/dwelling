@@ -838,9 +838,16 @@ Hero 2 styles
     padding-top: 4rem;
     padding-bottom: 4rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .hero__2__images {
     display: flex;
+  }
+  .hero__2__textcontent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
   }
 }
 
