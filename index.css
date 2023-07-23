@@ -1656,6 +1656,9 @@ Footer styles section styles
 
 /* 2xl */
 @media (min-width: 1536px) {
+  .footer__section {
+    padding-bottom: 3rem;
+  }
   .foooter__content {
     display: flex;
     justify-content: center;
@@ -1788,6 +1791,21 @@ Footer styles section styles
     font-style: normal;
     font-weight: 600;
     line-height: 2rem; /* 145.455% */
+  }
+  /* Footer social media links */
+  .footer__socialmedia {
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__socialmedia__svg {
+    margin-left: 4rem;
+    margin-right: auto;
+  }
+  .footer__copyright {
+    margin-left: auto;
+    margin-right: 5rem;
   }
 }
 
