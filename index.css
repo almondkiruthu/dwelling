@@ -1822,6 +1822,9 @@ Footer styles section styles
     margin-right: auto;
     margin-left: auto;
   }
+  .footer__image2 {
+    display: block;
+  }
   .footer__image1:hover {
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
       0 8px 10px -6px rgb(0 0 0 / 0.1);
