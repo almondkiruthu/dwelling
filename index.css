@@ -1724,6 +1724,13 @@ Footer styles section styles
     padding-bottom: 3rem;
     max-width: 100%;
   }
+
+  /* Footer section 2 */
+  .footer__links {
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
+  }
   .horizontal__line {
     width: 90%;
     height: 1px;
@@ -1735,6 +1742,8 @@ Footer styles section styles
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer__email__bodytext {
     color: #666270;
@@ -1761,6 +1770,12 @@ Footer styles section styles
     background: #fffae9;
     border: none;
     font-family: 'Albert Sans', sans-serif;
+  }
+  .footer__links__holder {
+    display: flex;
+    column-gap: 5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer__links1 {
     display: flex;
