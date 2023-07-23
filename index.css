@@ -826,10 +826,110 @@ Hero 2 styles
 
 /* lg */
 @media (min-width: 1024px) {
+  .hero__2__content {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero__2__images {
+    display: flex;
+    position: relative;
+    margin-right: auto;
+    margin-left: 3rem;
+  }
+  .hero2__image1 {
+    width: 20.375rem;
+    height: 25.375rem;
+    flex-shrink: 0;
+  }
+  .hero2__card {
+    width: 11.625rem;
+    height: 12.875rem;
+    flex-shrink: 0;
+    position: absolute;
+    right: -20%;
+    bottom: 10%;
+  }
+  .hero__2__textcontent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero2__header {
+    color: #191623;
+    font-size: 3.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4rem; /* 118.519% */
+    letter-spacing: -0.0675rem;
+  }
+  .hero2__button {
+    background-color: #fd5d11;
+    color: #fff;
+    font-size: 1.125rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+  }
 }
 
 /* xl */
 @media (min-width: 1280px) {
+  .hero__2__content {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero__2__images {
+    display: flex;
+    position: relative;
+    margin-right: auto;
+    margin-left: 3rem;
+  }
+  .hero2__image1 {
+    width: 24.375rem;
+    height: 29.375rem;
+    flex-shrink: 0;
+  }
+  .hero2__card {
+    width: 12.625rem;
+    height: 13.875rem;
+    flex-shrink: 0;
+    position: absolute;
+    right: -20%;
+    bottom: 10%;
+  }
+  .hero__2__textcontent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero2__header {
+    color: #191623;
+    font-size: 3.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4rem; /* 118.519% */
+    letter-spacing: -0.0675rem;
+  }
+  .hero2__button {
+    background-color: #fd5d11;
+    color: #fff;
+    font-size: 1.125rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+  }
 }
 
 /* 2xl */
@@ -840,10 +940,25 @@ Hero 2 styles
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 10rem;
   }
   .hero__2__images {
     display: flex;
+    position: relative;
+    margin-right: auto;
+    margin-left: 7rem;
+  }
+  .hero2__image1 {
+    width: 28.375rem;
+    height: 29.375rem;
+    flex-shrink: 0;
+  }
+  .hero2__card {
+    width: 13.625rem;
+    height: 14.875rem;
+    flex-shrink: 0;
+    position: absolute;
+    right: -20%;
+    bottom: 10%;
   }
   .hero__2__textcontent {
     display: flex;
@@ -851,6 +966,8 @@ Hero 2 styles
     row-gap: 1.5rem;
     justify-content: center;
     align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
   }
   .hero2__header {
     color: #191623;
