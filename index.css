@@ -840,6 +840,7 @@ Hero 2 styles
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 10rem;
   }
   .hero__2__images {
     display: flex;
@@ -847,7 +848,24 @@ Hero 2 styles
   .hero__2__textcontent {
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
+    row-gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .hero2__header {
+    color: #191623;
+    font-size: 3.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4rem; /* 118.519% */
+    letter-spacing: -0.0675rem;
+  }
+  .hero2__button {
+    background-color: #fd5d11;
+    color: #fff;
+    font-size: 1.125rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
   }
 }
 
