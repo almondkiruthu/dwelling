@@ -561,6 +561,70 @@ Hero styles
 }
 
 /* *********************
+Hero emphasis styles
+********************* */
+/* xs */
+@media (min-width: 475px) {
+}
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+}
+
+/* lg */
+@media (min-width: 1024px) {
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .hero__emphasis {
+    background: #6637ee;
+    color: #fff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .hero__emphasis__content {
+  }
+  .hero__emphasis__textcontent {
+    display: flex;
+  }
+  .hero__emphasis__header {
+    font-size: 3.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4rem; /* 118.519% */
+    letter-spacing: -0.0675rem;
+  }
+  .hero__emphasis__bodytext {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .body__text1 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 155.556% */
+    opacity: 0.800000011920929;
+  }
+  .body__text2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 155.556% */
+    opacity: 0.800000011920929;
+  }
+}
+
+/* *********************
 Media queries
 ********************* */
 
