@@ -1444,7 +1444,7 @@ Reviews section styles
     display: flex;
     justify-content: center;
   }
-  .review__divider__image{
+  .review__divider__image {
     max-width: 80%;
   }
   .company__logos__container {
@@ -1632,6 +1632,90 @@ Reviews section styles
     justify-content: center;
     align-items: center;
     column-gap: 2rem;
+  }
+}
+/* *********************
+Footer styles section styles
+********************* */
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .foooter__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .footer__images {
+    display: flex;
+    column-gap: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .footer__image1:hover {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+  .footer__image2:hover {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+  .footer__textcontent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .footer__content__header {
+    color: #191623;
+    font-size: 3.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4rem; /* 118.519% */
+    letter-spacing: -0.0675rem;
+  }
+  .footer__content__bodytext {
+    color: #666270;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 155.556% */
+  }
+  .footer__buttons {
+    display: flex;
+    column-gap: 1rem;
+  }
+  .footer__button1 {
+    background-color: #fd5d11;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+  }
+  .footer__button2 {
+    background-color: #6637ee;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
   }
 }
 
