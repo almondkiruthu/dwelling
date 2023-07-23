@@ -1370,10 +1370,181 @@ Reviews section styles
 
 /* lg */
 @media (min-width: 1024px) {
+  .review__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .review__section {
+    background: #191623;
+    color: #fff;
+  }
+  .review__toogle__and__header__contaner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .review__header {
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4rem; /* 118.519% */
+    letter-spacing: -0.0675rem;
+  }
+  .review__message__holder {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .quotes {
+    position: relative;
+    left: -7%;
+  }
+  .review__message__bodytext {
+    color: #c3bfd0;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 155.556% */
+  }
+  .reviewer__profile {
+    display: flex;
+    margin-top: 1rem;
+  }
+  .reviwer__details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2rem;
+    margin-left: 1rem;
+  }
+  .reviwer__name {
+    color: #fff;
+    font-family: Albert Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem; /* 155.556% */
+  }
+  .reviwer__position {
+    color: #c3bfd0;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; /* 162.5% */
+  }
+
+  .companies {
+    padding-bottom: 4rem;
+  }
+  .review__divider {
+    display: flex;
+    justify-content: center;
+  }
+  .review__divider__image{
+    max-width: 80%;
+  }
+  .company__logos__container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .company__logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+  }
 }
 
 /* xl */
 @media (min-width: 1280px) {
+  .review__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .review__section {
+    background: #191623;
+    color: #fff;
+  }
+  .review__toogle__and__header__contaner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .review__header {
+    font-size: 3.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4rem; /* 118.519% */
+    letter-spacing: -0.0675rem;
+  }
+  .review__message__holder {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .quotes {
+    position: relative;
+    left: -7%;
+  }
+  .review__message__bodytext {
+    color: #c3bfd0;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 155.556% */
+  }
+  .reviewer__profile {
+    display: flex;
+    margin-top: 1rem;
+  }
+  .reviwer__details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2rem;
+    margin-left: 1rem;
+  }
+  .reviwer__name {
+    color: #fff;
+    font-family: Albert Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem; /* 155.556% */
+  }
+  .reviwer__position {
+    color: #c3bfd0;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; /* 162.5% */
+  }
+
+  .companies {
+    padding-bottom: 4rem;
+  }
+  .review__divider {
+    display: flex;
+    justify-content: center;
+  }
+  .company__logos__container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .company__logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+  }
 }
 
 /* 2xl */
@@ -1443,6 +1614,24 @@ Reviews section styles
     font-style: normal;
     font-weight: 400;
     line-height: 1.625rem; /* 162.5% */
+  }
+
+  .companies {
+    padding-bottom: 4rem;
+  }
+  .review__divider {
+    display: flex;
+    justify-content: center;
+  }
+  .company__logos__container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .company__logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
   }
 }
 
