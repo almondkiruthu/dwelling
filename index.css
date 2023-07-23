@@ -1664,7 +1664,7 @@ Footer styles section styles
     margin-right: auto;
     margin-left: auto;
   }
-  .footer__image2{
+  .footer__image2 {
     display: none;
   }
   .footer__image1:hover {
@@ -1771,9 +1771,9 @@ Footer styles section styles
   }
   .footer__links__holder {
     display: flex;
-    column-gap: 5rem;
+    column-gap: 2rem;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 5rem;
   }
   .footer__links1 {
     display: flex;
