@@ -591,8 +591,8 @@ Hero emphasis styles
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
-  .hero__emphasis__content {
-  }
+  /* .hero__emphasis__content {
+  } */
   .hero__emphasis__textcontent {
     display: flex;
   }
