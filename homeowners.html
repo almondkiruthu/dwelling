@@ -3,32 +3,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- //Stylesheet -->
-    <link rel="stylesheet" href="index.css" />
-    <!-- Fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <title>Services</title>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="index.css" />
+    <title>Almond's Project</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar">
-        <div>
-          <h1><a href="index.html">Almond Kiruthu</a></h1>
-        </div>
-        <ul type="none" class="navbar-items">
-          <a href="index.html" cla><li>Home</li></a>
-          <a href="about.html"><li>About</li></a>
-          <a href="services.html"><li>Services</li></a>
-          <a href="contact.html"><li>Contact</li></a>
-          <a href="blog.html"><li>Blog</li></a>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li class="header__logo">
+            <a href="index.html"
+              ><img src="public\images\logo.png" alt="Company logo"
+            /></a>
+          </li>
+          <div class="header__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="renters.html">Renters</a></li>
+            <li><a href="homeowners.html">Homeowners</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </div>
+          <li class="header__button__holder">
+            <button class="header__button">Register</button>
+          </li>
+          <li class="header__toogle">
+            <button class="header__toogle__button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </button>
+          </li>
         </ul>
       </nav>
     </header>
-    <h1 class="home-text">Services</h1>
   </body>
 </html>
